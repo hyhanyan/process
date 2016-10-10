@@ -10,3 +10,8 @@
    shm :
    编译 gcc -o shm shm.c sem.c
        gcc -o shmread shmread.c sem.c
+       
+#消息队列
+   msg :
+       gcc -o test test.c
+       gcc -o msg msg.c
