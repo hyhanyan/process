@@ -15,3 +15,10 @@
    msg :
        gcc -o test test.c
        gcc -o msg msg.c
+       
+#管道
+   pipe(无名)：
+        gcc -o pipe pipe.c
+        有名管道与无名管道的区别：
+          (pipe)无名管道：只可以在亲缘关系进程中使用，有名随便
+          (mkfifo)有名管道：2个文件必须有一个为写，一个为读
