@@ -10,6 +10,7 @@
 2、  shm :
    编译 gcc -o shm shm.c sem.c
        gcc -o shmread shmread.c sem.c
+       共享内存需要借助其他辅助手段来同步进程对共享内存的访问
        
 #消息队列
 3、  msg :
